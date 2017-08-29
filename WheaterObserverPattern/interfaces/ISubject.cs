@@ -8,8 +8,8 @@ namespace WheaterObserverPattern.interfaces
 {
     public interface ISubject
     {
-        void registerObserver(Observer observer);
-        void removeObserver(Observer observer);
+        void registerObserver(IObserver observer);
+        void removeObserver(IObserver observer);
         void notifyObservers();
     }
 }
