@@ -14,6 +14,8 @@ namespace WheaterObserverPattern
         private float temperature;
         private float humidity;
         private float pressure;
+        private float pressureaaa;
+
 
         public WheaterData()
         {
